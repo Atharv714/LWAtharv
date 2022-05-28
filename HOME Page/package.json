@@ -1,0 +1,19 @@
+{
+  "name": "home-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Atharv Rastogi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.2"
+  }
+}

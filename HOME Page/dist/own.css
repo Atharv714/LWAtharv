@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*
+{
+  font-family: 'Quicksand';
+}
+
+nav {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  position: fixed;
+}
+
+.wavy {
+  background: -webkit-linear-gradient(250deg, rgb(187, 0, 255), rgb(8, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Raleway';
+}
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff008c;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffff;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* button of view subjects */
+
+#but {
+  background-color: rgb(255, 0, 119);
+  color: white;
+  transition: 500ms;
+
+}
+
+#but:hover {
+  background-color: aqua;
+  color: black;
+  box-shadow: 0 5px 15px rgba(rgb(0, 255, 255), rgb(0, 221, 255), rgb(0, 255, 255), 0.4);
+  transition: 500ms;
+}
+
+@media only screen and (max-width:768px){
+  #landingimage
+  {
+    width: 100%;
+  }
+
+ #plsheading
+ {
+   padding-left: 25px;
+   font-size: 20px;
+ }
+
+ #litext
+ {
+   font-size: 15px;
+   padding-left: 40px;
+ }
+}
