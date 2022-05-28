@@ -19,7 +19,11 @@ nav {
   font-family: 'Raleway';
 }
 
-
+ul a:hover {
+  color: #ff0077;
+  text-decoration: underline;
+  transition: 500ms;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
