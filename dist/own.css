@@ -88,3 +88,13 @@ ion-icon {
   color: #00ffff;
 }
 
+
+input:focus {
+  outline:none;
+}
+
+#ebutton
+{
+  background-color: rgb(255, 0, 93);
+  margin: auto;
+}
