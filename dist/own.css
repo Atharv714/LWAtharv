@@ -64,6 +64,10 @@ ul a:hover {
   transition: 500ms;
 }
 
+ion-icon {
+  color: #00FFFF;
+}
+
 @media only screen and (max-width:768px){
   #landingimage
   {
@@ -81,10 +85,7 @@ ul a:hover {
    font-size: 15px;
    padding-left: 40px;
  }
-  
-  ion-icon {
-  color: #00FFFF;
-}
+ 
 
 
 }
