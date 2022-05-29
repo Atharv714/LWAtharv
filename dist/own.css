@@ -81,4 +81,10 @@ ul a:hover {
    font-size: 15px;
    padding-left: 40px;
  }
+  
+  ion-icon {
+  color: cyan;
+}
+
+
 }
