@@ -1,5 +1,6 @@
 * {
   font-family: 'Quicksand';
+  box-sizing: border-box;
 }
 
 nav {
@@ -53,7 +54,7 @@ ul a:hover {
 /* button of view subjects */
 
 #but {
-  background-color: rgb(255, 0, 119);
+  background-color: #ff0077;
   transition: 500ms;
 }
 
@@ -62,10 +63,6 @@ ul a:hover {
   color: black;
   box-shadow: 0 5px 15px rgba(rgb(0, 255, 255), rgb(0, 221, 255), rgb(0, 255, 255), 0.4);
   transition: 500ms;
-}
-
-ion-icon {
-  color: #00FFFF;
 }
 
 @media only screen and (max-width:768px){
@@ -85,7 +82,9 @@ ion-icon {
    font-size: 15px;
    padding-left: 40px;
  }
- 
-
-
 }
+
+ion-icon {
+  color: #00ffff;
+}
+
