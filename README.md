@@ -1,1 +1,1 @@
-My new Website : Which aims at learning for free
+This website is a static website which aims at learning for free. it is under development hope you guys like it. :)  
