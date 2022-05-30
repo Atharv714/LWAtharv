@@ -19,11 +19,7 @@ nav {
   font-family: 'Raleway';
 }
 
-ul a:hover {
-  color: #ff0077;
-  text-decoration: underline;
-  transition: 500ms;
-}
+
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -83,4 +79,50 @@ ul a:hover {
    font-size: 15px;
    padding-left: 40px;
  }
+
+ #responsiveinput
+ {
+   width: 300px;
+ }
+
+ #plsheading2
+ {
+   font-size: 20px;
+ }
+
+ #plsheading3
+ {
+   font-size: 16px;
+   font-family: 'Raleway';
+ }
+
+ #responsivesubjects
+ {
+   display: grid;
+   grid-template-columns: repeat(2,minmax(0,1fr));
+   margin-left: 45px;
+ }
+
+ .resposivesub2
+ {
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ 
+}
+
+ion-icon {
+  color: #ff007b;
+}
+
+
+
+input:focus {
+  outline:none;
+}
+
+#ebutton
+{
+  background-color: rgb(255, 0, 93);
+  margin: auto;
 }
